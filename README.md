@@ -1,4 +1,4 @@
-# Car Speed Detection - carspeed.py (version 3.0) Forked from version2.0
+# Car Speed Detection - carspeed.py (version 4.0) Forked from version3.0
 
 ## Blog URL
 
@@ -11,13 +11,14 @@ This program for the Raspberry Pi determines the speed of cars moving through th
 
 ## Requirements
 
-* Raspberry Pi 2 Model B  (or 3 model B)
+* Raspberry Pi 3 Model B or newer
 * Picamera v 2
-* Opencv3
-
+* Opencv4
+* Raspberry OS Bullseye or Bookworm (32bit or 64bit)
+  
 ## Usage
 
-Install OpenCV 3 and Python 3 on the Pi. 
+Install OpenCV 4 and Python 3 on the Pi. 
 
 Copy carspeed.py into the same directory as your home directory. 
 
